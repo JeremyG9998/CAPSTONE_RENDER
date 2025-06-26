@@ -1,0 +1,25 @@
+<html>
+<head>
+    <title>Feedback</title>
+    <link rel="stylesheet" href="/static/UI/feedback.css">
+    <link rel="stylesheet" href="/static/UI/navbar.css">
+</head>
+<body>
+    <div class="navbar">
+        <a href="/home">Home</a>
+        <a href="/simulation">Simulation</a>
+        <a href="/statistics">Statistics</a>
+        <a href="/about_us">About Us</a>
+        <a href="/feedback">Feedback</a>
+        <a href="/login">Logout</a>
+    </div>
+    <div class="image1">
+        <h1>Written Feedback</h1>
+        <h2>Anything you would like to share with us!</h2>
+        <form action="/submit_feedback" method="POST">
+            <textarea name="message" cols="60" rows="10" required></textarea><br>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>

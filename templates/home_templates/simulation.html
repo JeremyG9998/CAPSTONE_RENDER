@@ -1,0 +1,227 @@
+<html>
+<head>
+    <title>Simulation</title>
+    <link rel="stylesheet" href="/static/UI/simulation.css">
+    <link rel="stylesheet" href="/static/UI/navbar.css">
+</head>
+<body>
+    <div class="navbar">
+        <a href="/home">Home</a>
+        <a href="/simulation">Simulation</a>
+        <a href="/statistics">Statistics</a>
+        <a href="/about_us">About Us</a>
+        <a href="/feedback">Feedback</a>
+        <a href="/login">Logout</a>
+    </div>
+    <h1>Weather Simulations</h1>
+    <div class="background2">
+    <div class="card-container">
+
+        <!-- Winter Card -->
+        <form action="/run_simulation" method="POST" class="simulation-card">
+            <input type="hidden" name="simulation_type" value="run1">
+            <h3>Winter Simulation</h3>
+            <p>Blizzard and Chocolate flavors are more popular due to colder weather.</p>
+            <button type="submit">Run Winter</button>
+        </form>
+
+        <!-- Summer Simulation Card -->
+        <form action="/run_simulation" method="POST" class="simulation-card">
+            <input type="hidden" name="simulation_type" value="run8">
+            <h3>Summer Simulation</h3>
+            <p>Lava and Hot Fudge are more popular due to hotter weather.</p>
+            <button type="submit">Run Summer</button>
+        </form>
+
+        <!-- Normal Weather Simulation Card -->
+        <form action="/run_simulation" method="POST" class="simulation-card">
+            <input type="hidden" name="simulation_type" value="run15">
+            <h3>Normal Weather</h3>
+            <p>A normal simulation where all flavors have an equal chance.</p>
+            <button type="submit">Run Normal</button>
+        </form>
+    </div>
+    </div>
+
+    <h1>Higher Time Weather Simulations</h1>
+    <div class="background3">
+    <div class="card-container">
+
+        <!-- Winter HT Card -->
+        <form action="/run_simulation" method="POST" class="simulation-card">
+            <input type="hidden" name="simulation_type" value="run2">
+            <h3>Winter HT Simulation</h3>
+            <p>A Winter Simulation with longer hours for the day.</p>
+            <button type="submit">Run WinterHT</button>
+        </form>
+
+        <!-- Summer HT Simulation Card -->
+        <form action="/run_simulation" method="POST" class="simulation-card">
+            <input type="hidden" name="simulation_type" value="run9">
+            <h3>Summer HT Weather</h3>
+            <p>A Summer Simulation with longer hours for the day.</p>
+            <button type="submit">Run Summer HT</button>
+        </form>
+
+        <!-- Normal HT Simulation Card -->
+        <form action="/run_simulation" method="POST" class="simulation-card">
+            <input type="hidden" name="simulation_type" value="run18">
+            <h3>Normal HT</h3>
+            <p>A Normal Simulation where the hours are longer for the day.</p>
+            <button type="submit">Run Normal HT</button>
+        </form>
+    </div>
+    </div>
+
+    <h1>Lower Time Weather Simulations</h1>
+    <div class="background4">
+    <div class="card-container">
+
+        <!-- Weather LT Card -->
+        <form action="/run_simulation" method="POST" class="simulation-card">
+            <input type="hidden" name="simulation_type" value="run3">
+            <h3>Winter LT Simulation</h3>
+            <p>A Winter Simulation with shorter hours for the day.</p>
+            <button type="submit">Run WinterLT</button>
+        </form>
+
+        <!-- Summer LT Simulation Card -->
+        <form action="/run_simulation" method="POST" class="simulation-card">
+            <input type="hidden" name="simulation_type" value="run10">
+            <h3>Summer LT Simulation</h3>
+            <p>A Summer Simulation with shorter hours for the day.</p>
+            <button type="submit">Run Summer LT</button>
+        </form>
+
+        <!-- Normal LT Simulation Card -->
+        <form action="/run_simulation" method="POST" class="simulation-card">
+            <input type="hidden" name="simulation_type" value="run19">
+            <h3>Normal LT Simulation</h3>
+            <p>A Normal Simulation where the day has shorter hours for the day.</p>
+            <button type="submit">Run Normal LT</button>
+        </form>
+    </div>
+    </div>
+
+    <h1>Higher Probability Weather Simulations</h1>
+    <div class="background5">
+    <div class="card-container">
+
+        <!-- Winter HP Card -->
+        <form action="/run_simulation" method="POST" class="simulation-card">
+            <input type="hidden" name="simulation_type" value="run4">
+            <h3>Winter HP Simulation</h3>
+            <p>A Winter Simulation with higher rate of customers for the day.</p>
+            <button type="submit">Run Winter HP</button>
+        </form>
+
+        <!-- Summer HP Card -->
+        <form action="/run_simulation" method="POST" class="simulation-card">
+            <input type="hidden" name="simulation_type" value="run11">
+            <h3>Summer HP Simulation</h3>
+            <p>A Summer Simulation with a higher rate of customers for the day.</p>
+            <button type="submit">Run Summer HP</button>
+        </form>
+
+        <!-- Normal HP Simulation Card -->
+        <form action="/run_simulation" method="POST" class="simulation-card">
+            <input type="hidden" name="simulation_type" value="run17">
+            <h3>Normal HP Simulation</h3>
+            <p>A Normal Simulation where there is a higher rate of customers for the day.</p>
+            <button type="submit">Run Normal HP</button>
+        </form>
+    </div>
+    </div>
+
+    <h1>Lower Probability Weather Simulations</h1>
+    <div class="background6">
+    <div class="card-container">
+
+        <!-- Winter LP Simulation Card -->
+        <form action="/run_simulation" method="POST" class="simulation-card">
+            <input type="hidden" name="simulation_type" value="run5">
+            <h3>Winter LP Simulation</h3>
+            <p>A Winter Simulation with a lower rate of customers for the day.</p>
+            <button type="submit">Run Winter LP</button>
+        </form>
+
+        <!-- Summer LP Simulation Card -->
+        <form action="/run_simulation" method="POST" class="simulation-card">
+            <input type="hidden" name="simulation_type" value="run12">
+            <h3>Summer LP Simulation</h3>
+            <p>A Summer Simulation with a lower rate of customers for the day.</p>
+            <button type="submit">Run Summer LP</button>
+        </form>
+
+        <!-- Normal LP Simulation Card -->
+        <form action="/run_simulation" method="POST" class="simulation-card">
+            <input type="hidden" name="simulation_type" value="run16">
+            <h3>Normal LP Simulation</h3>
+            <p>A Normal Simulation where there is a lower rate of customers for the day.</p>
+            <button type="submit">Run Normal LP</button>
+        </form>
+    </div>
+    </div>
+    
+    <h1>Higher Time Higher Probability Weather Simulations</h1>
+    <div class="background7">
+    <div class="card-container">
+
+        <!-- Winter HPHT Simulation Card -->
+        <form action="/run_simulation" method="POST" class="simulation-card">
+            <input type="hidden" name="simulation_type" value="run6">
+            <h3>Winter HPHT Simulation</h3>
+            <p>A Winter Simulation with longer hours with a higher rate of customers for the day.</p>
+            <button type="submit">Run Winter HPHT</button>
+        </form>
+
+        <!-- Summer HPHT Simulation Card -->
+        <form action="/run_simulation" method="POST" class="simulation-card">
+            <input type="hidden" name="simulation_type" value="run13">
+            <h3>Summer HPHT Simulation</h3>
+            <p>A Summer Simulation with longer hours with a higher rate of customers for the day.</p>
+            <button type="submit">Run Summer HPHT</button>
+        </form>
+
+        <!-- Normal HPHT Simulation Card -->
+        <form action="/run_simulation" method="POST" class="simulation-card">
+            <input type="hidden" name="simulation_type" value="run20">
+            <h3>Normal HPHT Simulation</h3>
+            <p>A Normal Simulation where the day has longer hours and a higher rate of customers for the day.</p>
+            <button type="submit">Run Normal HPHT</button>
+        </form>
+    </div>
+    </div>
+
+    <h1>Lower Time Lower Probability Weather Simulations</h1>
+    <div class="background8">
+    <div class="card-container">
+
+        <!-- Winter LPLT Card -->
+        <form action="/run_simulation" method="POST" class="simulation-card">
+            <input type="hidden" name="simulation_type" value="run7">
+            <h3>Winter LPLT Simulation</h3>
+            <p>A Winter Simulation with a shorter hours with a lower rate of customers for the day.</p>
+            <button type="submit">Run Winter LPLT</button>
+        </form>
+
+        <!-- Summer LPLT Simulation Card -->
+        <form action="/run_simulation" method="POST" class="simulation-card">
+            <input type="hidden" name="simulation_type" value="run14">
+            <h3>Summer LPLT Simulation</h3>
+            <p>A Summer Simulation with shorter hours with a shorter rate of customers for the day.</p>
+            <button type="submit">Run Summer LPLT</button>
+        </form>
+
+        <!-- Normal LPLT Simulation Card -->
+        <form action="/run_simulation" method="POST" class="simulation-card">
+            <input type="hidden" name="simulation_type" value="run21">
+            <h3>Normal LPLT Weather</h3>
+            <p>A Normal Simulation where the day has shorter hours and a lower rate of customers for the day.</p>
+            <button type="submit">Run Normal LPLT</button>
+        </form>
+    </div>
+    </div>
+    <br><br>
+</body>
+</html>
