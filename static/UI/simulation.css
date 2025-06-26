@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+    background-color: blanchedalmond;
+}
+
+.background2 {
+    background-color: mediumaquamarine;
+    margin: 0;
+}
+
+.background3 {
+    background-color: tomato;
+    margin: 0;
+}
+
+.background4 {
+    background-color: goldenrod;
+    margin: 0;
+}
+.background5 {
+    background-color: yellowgreen;
+    margin: 0;
+}
+.background6 {
+    background-color: saddlebrown;
+    margin: 0;
+}
+.background7 {
+    background-color: orangered;
+    margin: 0;
+}
+.background8 {
+    background-color: blueviolet;
+    margin: 0;
+}
+
+h1 {
+    margin: 0;
+    background-color: chocolate;
+    color: blue;
+    text-align: center;
+}
+
+h2 {
+    color: green;
+}
+
+.links a {
+    background-color: teal;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+    padding: 5px;
+    box-shadow: 0 0 10px black;
+}
+
+button {
+    padding: 5px;
+    background-color: green;
+    color: white;
+    cursor: pointer;
+}
+
+a {
+    background-color: mediumseagreen;
+    color: white;
+    cursor: pointer;
+    box-shadow: 0 0 0 2px black;
+    text-decoration: none;
+}
+
+/* === Card Layout for Simulation Page === */
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap; /* allows 4 per row, maybe get rid of tho */
+    gap: 20px;
+    justify-content: center;
+}
+
+.simulation-card {
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 0 10px black;
+    background-color: white;
+}
+
+.simulation-card button {
+    padding: 10px;
+    background-color: dodgerblue;
+    color: white;
+    cursor: pointer;
+}
+
+.simulation-card button:hover {
+    background-color: navy;
+}

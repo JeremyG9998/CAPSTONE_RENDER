@@ -1,0 +1,47 @@
+body {
+    background-color: blanchedalmond;
+    margin: 0;
+}
+h1 {
+    text-align: center;
+    color: chocolate;
+    margin: 0;
+}
+p {
+    text-align: center;
+    color: black;
+    font-size: larger;
+}
+a {
+    text-align: center;
+    background-color: mediumseagreen;
+    color: white;
+    cursor: pointer;
+    box-shadow: 0 0 0 2px black;
+    text-decoration: none;
+}
+.image1 {
+    background-image: url('/static/images/about-us.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    height: 91%;
+}
+/* === Card Layout for Simulation Page === */
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap; /* allows 4 per row, maybe get rid of tho */
+    gap: 100px;
+    justify-content: center;
+}
+.simulation-card {
+    padding: 25px;
+    width: 300px;
+    box-shadow: 0 0 10px black;
+    background-color: whitesmoke;
+}
+.background2 {
+    background-color: darkslategray;
+    margin: 0;
+}

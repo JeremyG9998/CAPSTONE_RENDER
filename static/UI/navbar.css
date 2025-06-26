@@ -1,0 +1,16 @@
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    padding: 20px;
+    margin: 0;
+}
+.navbar a {
+    text-align: center;
+    display: block;
+    background-color: teal;
+    color: white;
+    cursor: pointer;
+    box-shadow: 0 0 10px whitesmoke;
+    text-decoration: none;
+}

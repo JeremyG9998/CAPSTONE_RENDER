@@ -1,0 +1,9 @@
+Flask
+flask-migrate
+flask-sqlalchemy
+gunicorn
+matplotlib
+scikit-learn
+pandas
+python-dateutil
+pysqlite3

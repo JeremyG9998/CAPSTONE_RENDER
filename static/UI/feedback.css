@@ -1,0 +1,42 @@
+body {
+    background-color: blanchedalmond;
+    margin: 0;
+}
+.image1 {
+    background-image: url('/static/images/feedback.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    height: 91%;
+}
+
+a {
+    text-align: center;
+    background-color: mediumseagreen;
+    color: white;
+    cursor: pointer;
+    box-shadow: 0 0 0 2px black;
+    text-decoration: none;
+}
+textarea {
+    display: block;
+    margin: auto;
+}
+button {
+    display: block;
+    margin: auto;
+}
+h1 {
+    text-align: center;
+    color: blue;
+    margin: 0;
+    padding: 20px;
+}
+h2 {
+    text-align: center;
+    color: blue;
+}
+.background2 {
+    background-color: tomato;
+    margin: 0;
+}

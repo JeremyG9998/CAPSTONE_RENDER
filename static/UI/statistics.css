@@ -1,0 +1,35 @@
+body {
+    background-color: blanchedalmond;
+    margin: 0;
+}
+h1 {
+    color: blue;
+    text-align: center;
+}
+.links a {
+    background-color: teal;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+    padding: 5px;
+    box-shadow: 0 0 10px black;
+}
+p {
+    text-align: center;
+    color: teal;
+    font-size: larger;
+    text-decoration: underline;
+}
+.background2 {
+    background-color: mediumaquamarine;
+    margin: 0;
+}
+
+.background3 {
+    background-color: tomato;
+    margin: 0;
+}
+.background4 {
+    background-color: chocolate;
+    margin: 0;
+}
